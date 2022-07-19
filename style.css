@@ -41,7 +41,18 @@ p {
     font-weight: 400;
     font-style: normal;
 }
+/* Navigation */
 
+.logo {
+    color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-size: 1.8rem;
+}
+.navbar {
+    padding-left: 4%;
+}
 /* Padding */
 .p-7 {
     padding-top: 7%;
@@ -73,6 +84,10 @@ p {
     text-transform: uppercase;
     letter-spacing: 3px;
 }
+.btn-primary:hover {
+    background-color: #EDE031;
+    color: #231F20;
+}
 
 /* Hero section */
 
@@ -84,6 +99,18 @@ p {
     padding-top: 10%;
 }
 
+.space {
+    margin-top: 8%;
+}
+
+.contact_lens {
+    width: 7%;
+    position: absolute;
+    transform: translate(125%, -40%);
+}
+.left-col {
+    padding-left: 5%;
+}
 
 /* How it works section */
 
