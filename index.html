@@ -9,6 +9,7 @@
     
     <!-- Fonts -->
     <link rel="stylesheet" href="https://use.typekit.net/vxf1avd.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Animation -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link
@@ -33,7 +34,6 @@
         }
       }
     </style>
-
     
   </head>
   <body>
@@ -131,12 +131,10 @@
 
   <!-- Divider Banner Section -->
   <section class="container-fluid divider-banner-section">
-    <div class="row">
-      <div class="col-lg-9">
-        <h3>When you're ready to get started, you know what to do <img src="https://res.cloudinary.com/sbg-pathyield/image/upload/v1658118231/arrow_a784tu.svg" class="arrow"></h3>
-      </div>
-      <div class="col-lg-3 wow animate__animated animate__tada">
-        <button class="btn btn-primary">Get Started!</button>
+    <div class="row text-center">
+      <div class="col-lg-12">
+        <h3>When you're ready to get started, you know what to do <i class="fa-solid fa-arrow-right-long"></i><button class="btn btn-primary wow animate__animated animate__tada get-started">Get Started!</button>
+        </h3>
       </div>
     </div>
   </section>
@@ -188,15 +186,17 @@
   </section>
 
   <!-- Video Section -->
-  <section class="container video-section bg-gray p-7">
-    <div class="row title">
+  <section class="container-fluid video-section bg-gray">
+    <div class="row">
       <div class="col-lg-12 text-center">
         <h3>You've got this and we've got you</h3>
         <h2>Pop 'em in & out</h2>
       </div>
     </div>
-    <div class="row">
-
+    <div class="row" data-aos="fade-up">
+      <div class="col-lg-12 text-center">
+        <img src="https://res.cloudinary.com/sbg-pathyield/image/upload/v1658459852/Screen_Shot_2022-06-15_at_2.06.16_AM_oyd6rr.png" alt="Instruction video graphic">
+      </div>
     </div>
   </section>
 
@@ -208,28 +208,30 @@
         <h2>Welcome Kit</h2>
         <button class="btn btn-primary">Get Started!</button>
       </div>
-      <div class="col-lg-7">
+      <div class="col-lg-7" data-aos="fade-left">
         <img src="https://res.cloudinary.com/sbg-pathyield/image/upload/v1658117383/WelcomeKit_v5_jew0jm.jpg" class="welcome-kit-img" alt="Welcome Kit image">
       </div>
     </div>
   </section>
 
   <!-- Pricing Model Section -->
-  <section class="container pricing-model bg-gray p-7">
+  <section class="container-fluid pricing-model bg-gray p-7">
     <div class="row title">
       <div class="col-lg-12 text-center">
         <h3>Two easy ways to join and enjoy the benefits</h3>
         <h2>For Your eyes only</h2>
       </div>
     </div>
-    <div class="row">
-      <div class="col-lg-6">
+    <div class="row center-items">
+      <div class="col-lg-4 col-sm-6" data-aos="fade-right">
+        <img src="https://res.cloudinary.com/sbg-pathyield/image/upload/v1658460254/Rectangle_ohiurn.svg" class="pricing-img">
         <h6>Monthly Subscription</h6>
         <p>Get your initial exam, welcome kit, two weeks of free lenses, LNSS Success Program, all the perks and services and fresh lenses every month.</p>
         <h4 class="price">$60 / month</h4>
         <p>Cancel anytime</p>
       </div>
-      <div class="col-lg-6">
+      <div class="col-lg-4 col-sm-6" data-aos="fade-left">
+        <img src="https://res.cloudinary.com/sbg-pathyield/image/upload/v1658460254/Rectangle_ohiurn.svg" class="pricing-img">
         <h6>Yearly Subscription</h6>
         <p>Same as the monthly, you get your initial exam, welcome kit, two weeks of free lenses, LNSS Success Program, all the perks and services and fresh lenses every month.</p>
         <h4 class="price">$570</h4>
@@ -278,3 +280,4 @@ new WOW().init();
 
   </body>
 </html>
+
