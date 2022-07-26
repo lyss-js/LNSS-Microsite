@@ -232,7 +232,7 @@ img.instruction-placeholder {
 
 
 
-@media only screen and (min-width: 400px) {
+@media only screen and (max-width: 400px) {
     .contact_lens {
         width: 19%;
         position: absolute;
@@ -249,7 +249,7 @@ img.instruction-placeholder {
 
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
     h1 {
         font-size: 2.5rem;
         margin-top: 6%;
@@ -257,9 +257,9 @@ img.instruction-placeholder {
     /* Hero section */
 
     .contact_lens {
-        width: 19%;
+        width: 17%;
         position: absolute;
-        transform: translate(168%, -26%);
+        transform: translate(136%, -30%);
     }
     .left-col {
         padding-left: 5%;
@@ -269,32 +269,25 @@ img.instruction-placeholder {
         display: flex;
         flex-direction: column-reverse;
     }
-  }
-
-
-  @media only screen and (min-width: 600px) {
-    .contact_lens {
-        width: 11%;
-        position: absolute;
-        transform: translate(124%, -30%);
-    }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
     img.hero-img {
-        width: 84%;
+        width: 118%;
     }
     .contact_lens {
-        transform: translate(154%, -30%);
+        width: 11%;
+        transform: translate(165%, -27%);
     }
     .benefits-img {
-        width: 30%;
+        width: 90%;
+        margin-bottom: 16%;
     }
     h3 {
         font-size: 1.10rem;
     }
     .mythbusting-img {
-        width: 5%;
+        width: 17%;
         padding-bottom: 20px;
     }
     h1 {
@@ -306,6 +299,9 @@ img.instruction-placeholder {
     }
     .space {
         margin-top: 5%;
+    }
+    .left-col {
+        padding-top: 2rem;
     }
 }
 
@@ -322,7 +318,7 @@ img.instruction-placeholder {
         transform: translate(151%, -30%);
     }
     h1 {
-        font-size: 2.9rem;
+        font-size: 4.3rem;
     }
     .benefits-img {
         width: 70%;
@@ -339,5 +335,16 @@ img.instruction-placeholder {
 
 }
 
+@media only screen and (min-width: 1500px) {
+.contact_lens {
+    width: 6%;
+    transform: translate(138%, -30%);
+}
+}
 
-
+@media only screen and (min-width: 1600px) {
+    .contact_lens {
+        width: 6%;
+        transform: translate(133%, -30%);
+    }
+    }
