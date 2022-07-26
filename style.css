@@ -119,7 +119,7 @@ img.hero-img {
     width: 114%;
 }
 .hero-mobile {
-
+    flex-direction: row;
 }
 
 /* How it works section */
@@ -308,4 +308,36 @@ img.instruction-placeholder {
         margin-top: 5%;
     }
 }
+
+@media only screen and (min-width: 1440px) {
+    .hero-mobile {
+        flex-direction: row;
+    }
+    .left-col {
+        padding-left: 5%;
+        padding-top: 10rem;
+    }
+    .contact_lens {
+        width: 6%;
+        transform: translate(151%, -30%);
+    }
+    h1 {
+        font-size: 2.9rem;
+    }
+    .benefits-img {
+        width: 70%;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+    .mythbusting-img {
+        width: 11%;
+    }
+    img.hero-img {
+        width: 100%;
+    }
+
+}
+
+
 
