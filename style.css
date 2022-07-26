@@ -53,6 +53,9 @@ p {
 .navbar {
     padding-left: 4%;
 }
+.navbar-toggler-icon {
+    color: black;
+}
 /* Padding */
 .p-7 {
     padding-top: 7%;
@@ -110,6 +113,13 @@ p {
 }
 .left-col {
     padding-left: 5%;
+    padding-top: 6rem;
+}
+img.hero-img {
+    width: 114%;
+}
+.hero-mobile {
+
 }
 
 /* How it works section */
@@ -171,6 +181,9 @@ p {
     padding-top: 3%;
     padding-bottom: 3%;
 }
+img.instruction-placeholder {
+    width: 70%;
+}
 
 /* Pricing Model */
 .pricing-model {
@@ -191,7 +204,52 @@ p {
     font-style: normal;
 }
 
-@media only screen and (max-width: 320px) {
+/* Social section */
+.social-img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 321px) {
+    .contact_lens {
+        width: 21%;
+        position: absolute;
+        transform: translate(206%, -19%);
+    }
+
+    h1 {
+        font-size: 3.3rem;
+    }
+    .hero-mobile {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .left-col {
+        padding-left: 5%;
+        padding-top: 1rem;
+    }    
+
+}
+
+
+
+@media only screen and (min-width: 400px) {
+    .contact_lens {
+        width: 19%;
+        position: absolute;
+        transform: translate(170%, -26%);
+    }
+    .hero-mobile {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .left-col {
+        padding-left: 5%;
+        padding-top: 1rem;
+    }    
+
+}
+
+@media only screen and (min-width: 600px) {
     h1 {
         font-size: 2.5rem;
         margin-top: 6%;
@@ -199,11 +257,55 @@ p {
     /* Hero section */
 
     .contact_lens {
-        width: 22%;
+        width: 19%;
         position: absolute;
-        transform: translate(195%, -21%);
+        transform: translate(168%, -26%);
     }
     .left-col {
         padding-left: 5%;
+        padding-top: 1rem;
+    }
+    .hero-mobile {
+        display: flex;
+        flex-direction: column-reverse;
     }
   }
+
+
+  @media only screen and (min-width: 600px) {
+    .contact_lens {
+        width: 11%;
+        position: absolute;
+        transform: translate(124%, -30%);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    img.hero-img {
+        width: 84%;
+    }
+    .contact_lens {
+        transform: translate(154%, -30%);
+    }
+    .benefits-img {
+        width: 30%;
+    }
+    h3 {
+        font-size: 1.10rem;
+    }
+    .mythbusting-img {
+        width: 5%;
+        padding-bottom: 20px;
+    }
+    h1 {
+        font-size: 2.5rem;
+        margin-top: 0%;
+    }
+    .disclaimer {
+        padding-top: 3%;
+    }
+    .space {
+        margin-top: 5%;
+    }
+}
+
