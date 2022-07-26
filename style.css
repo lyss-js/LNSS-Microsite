@@ -209,55 +209,18 @@ img.instruction-placeholder {
     width: 100%;
 }
 
-@media only screen and (max-width: 321px) {
-    .contact_lens {
-        width: 21%;
-        position: absolute;
-        transform: translate(206%, -19%);
-    }
-
-    h1 {
-        font-size: 3.3rem;
-    }
-    .hero-mobile {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .left-col {
-        padding-left: 5%;
-        padding-top: 1rem;
-    }    
-
-}
-
-
-
-@media only screen and (max-width: 400px) {
-    .contact_lens {
-        width: 19%;
-        position: absolute;
-        transform: translate(170%, -26%);
-    }
-    .hero-mobile {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .left-col {
-        padding-left: 5%;
-        padding-top: 1rem;
-    }    
-
-}
-
-@media only screen and (max-width: 600px) {
+@media (max-width: 575.98px) {
     h1 {
         font-size: 2.5rem;
         margin-top: 6%;
     }
+    h3 {
+        font-size: 1.25rem;
+    }
     /* Hero section */
 
     .contact_lens {
-        width: 17%;
+        width: 25%;
         position: absolute;
         transform: translate(136%, -30%);
     }
@@ -269,9 +232,42 @@ img.instruction-placeholder {
         display: flex;
         flex-direction: column-reverse;
     }
+    img.instruction-placeholder {
+        width: 110%;
+    }
+    .welcome-kit-img {
+        width: 115%;
+    }
+    .mythbusting-img {
+        width: 10%;
+    }
+    .hero-img {
+        display: none;
+    }
+    img.mobile-hero-img {
+        width: 114%;
+        margin-left: -4%;
+    }
+    .mobile-col-7 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .pricing {
+        text-align: center;
+    }
+    span.line-break {
+        content: "\a";
+        white-space: pre;
+    }
+    .get-started {
+        margin-left: 3%;
+        text-align: center;
+        margin-right: 18%;
+        margin-top: 3%;
+    }
 }
 
-@media only screen and (max-width: 768px) {
+@media (min-width: 767.98px)  {
     img.hero-img {
         width: 118%;
     }
@@ -302,6 +298,9 @@ img.instruction-placeholder {
     }
     .left-col {
         padding-top: 2rem;
+    }
+    .mobile-hero-img {
+        display: none;
     }
 }
 
