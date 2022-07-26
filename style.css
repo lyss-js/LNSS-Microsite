@@ -265,6 +265,12 @@ img.instruction-placeholder {
         margin-right: 18%;
         margin-top: 3%;
     }
+    .benefits-img {
+        margin-bottom: 2%;
+    }
+    .mobile-mythbusting {
+        text-align: center;
+    }
 }
 
 @media (min-width: 767.98px)  {
