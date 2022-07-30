@@ -163,6 +163,8 @@ img.hero-img {
     justify-content: center;
     align-items: center;
     vertical-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 .welcome-kit-img {
     width: 90%;
@@ -189,6 +191,8 @@ img.instruction-placeholder {
 .pricing-model {
     padding-left: 6%;
     padding-right: 6%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 .pricing-img {
     padding-bottom: 4%;
