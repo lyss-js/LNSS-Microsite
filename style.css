@@ -95,6 +95,7 @@ p {
 .btn-primary:hover {
     background-color: #EDE031;
     color: #231F20;
+    border-color: #231F20;
 }
 
 /* Hero section */
@@ -232,7 +233,7 @@ img.instruction-placeholder {
     .contact_lens {
         width: 25%;
         position: absolute;
-        transform: translate(136%, -30%);
+        transform: translate(7.7em, -30%);
     }
     .left-col {
         padding-left: 5%;
@@ -281,6 +282,11 @@ img.instruction-placeholder {
     .mobile-mythbusting {
         text-align: center;
     }
+    .banner-badge {
+        width: 15%;
+        position: absolute;
+        transform: translate(4.5rem, -4rem);
+    }
 }
 
 @media (min-width: 767.98px)  {
@@ -289,7 +295,7 @@ img.instruction-placeholder {
     }
     .contact_lens {
         width: 9%;
-        transform: translate(142%, -27%);
+        transform: translate(8.5rem, -27%);    
     }
     .benefits-img {
         width: 90%;
@@ -317,6 +323,11 @@ img.instruction-placeholder {
     }
     .mobile-hero-img {
         display: none;
+    }
+    .banner-badge {
+        width: 5%;
+        position: absolute;
+        transform: translate(18rem, -2rem);
     }
 }
 
@@ -347,6 +358,11 @@ img.instruction-placeholder {
     img.hero-img {
         width: 116%;
         margin-top: -3%;
+    }
+    img.banner-badge {
+        width: 5%;
+        position: absolute;
+        transform: translate(23rem, -2rem);
     }
 
 }
