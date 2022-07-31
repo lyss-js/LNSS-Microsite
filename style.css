@@ -287,6 +287,23 @@ img.instruction-placeholder {
         position: absolute;
         transform: translate(4.5rem, -4rem);
     }
+    .hero-section {
+        padding-top: 2rem;
+    }
+    .location {
+        padding-bottom: 1rem;
+    }
+    img.location-img {
+        width: 45%;
+    }
+    .email-section {
+        background-color: #EDEDEE;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .mobile-input {
+        margin-bottom: 1rem;
+    }
 }
 
 @media (min-width: 767.98px)  {
@@ -329,6 +346,21 @@ img.instruction-placeholder {
         position: absolute;
         transform: translate(18rem, -2rem);
     }
+    img.location-img {
+        width: 60%;
+    }
+    .hero-section {
+        padding-top: 2rem;
+    }
+    .email-description {
+        font-size: 12px;
+    }
+    .email-section {
+        background-color: #EDEDEE;
+        padding-left: 4%;
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+    }
 }
 
 @media only screen and (min-width: 1440px) {
@@ -364,14 +396,39 @@ img.instruction-placeholder {
         position: absolute;
         transform: translate(23rem, -2rem);
     }
+    .title-2 {
+        font-size: 4.0rem;
+    }
+    .title-description {
+        font-size: 24px;
+        padding-top: 1rem;
+    }
+    .email-section {
+        background-color: #EDEDEE;
+        padding-left: 8%;
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+    }
+    .location {
+        padding-bottom: 3rem;
+    }
+    img.location-img {
+        width: 80%;
+    }
+    .hero-section {
+        padding-top: 4rem;
+    }
+    .email-description {
+        font-size: 18px;
+    }
 
 }
 
 @media only screen and (min-width: 1500px) {
-.contact_lens {
-    width: 6%;
-    transform: translate(138%, -30%);
-}
+    .contact_lens {
+        width: 6%;
+        transform: translate(138%, -30%);
+    }
 }
 
 @media only screen and (min-width: 1600px) {
@@ -379,4 +436,11 @@ img.instruction-placeholder {
         width: 6%;
         transform: translate(133%, -30%);
     }
+}
+
+/* Find a Club Page */
+
+/* Hero */
+.email-section {
+    background-color: #EDEDEE;
 }
