@@ -1,3 +1,8 @@
+/* Horizontal Scroll */
+html {
+    overflow-x: hidden;
+}
+
 /* Font */
 h1 {
     font-family: futura-pt-bold, sans-serif;
@@ -126,6 +131,7 @@ img.hero-img {
 
 .how-it-works-img {
     padding-bottom: 14px;
+    width: 50%;
 }
 .benefits-img {
     width: 70%;
@@ -339,7 +345,8 @@ img.instruction-placeholder {
         width: 11%;
     }
     img.hero-img {
-        width: 100%;
+        width: 116%;
+        margin-top: -3%;
     }
 
 }
@@ -356,4 +363,4 @@ img.instruction-placeholder {
         width: 6%;
         transform: translate(133%, -30%);
     }
-    }
+}
