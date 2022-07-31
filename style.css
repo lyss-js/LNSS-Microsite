@@ -304,6 +304,21 @@ img.instruction-placeholder {
     .mobile-input {
         margin-bottom: 1rem;
     }
+    .booking-section {
+        padding-left: 1rem;
+        padding-top: 2rem;
+    }
+    .info-section {
+        background-color: #EDE031;
+        padding-top: 2rem;
+    }
+    img.info-img {
+        width: 12%;
+    }
+    .calendly-inline-widget {
+        min-width: 320px;
+        height: 720px;
+    }
 }
 
 @media (min-width: 767.98px)  {
@@ -421,7 +436,28 @@ img.instruction-placeholder {
     .email-description {
         font-size: 18px;
     }
-
+    .booking-section {
+        padding-left: 3rem;
+    }
+    .title-padding {
+        padding-top: 4rem;
+    }
+    .info-section {
+        background-color: #EDE031;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        padding-left: 3rem;
+    }
+    .title-description-2 {
+        font-size: 1.2rem;
+    }
+    img.info-img {
+        width: 120%;
+    }
+    .calendly-inline-widget {
+        min-width: 320px;
+        height: 720px;
+    }
 }
 
 @media only screen and (min-width: 1500px) {
@@ -443,4 +479,15 @@ img.instruction-placeholder {
 /* Hero */
 .email-section {
     background-color: #EDEDEE;
+}
+
+/* New York Page */
+.map-bg {
+    background-image: url(https://res.cloudinary.com/sbg-pathyield/image/upload/v1659243580/Asset_9_3x_zjrnk5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.info-section {
+    background-color: #EDE031;
 }
