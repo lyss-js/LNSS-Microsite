@@ -254,7 +254,7 @@ img.instruction-placeholder {
         width: 115%;
     }
     .mythbusting-img {
-        width: 10%;
+        width: 18%;
     }
     .hero-img {
         display: none;
@@ -268,7 +268,10 @@ img.instruction-placeholder {
         padding-right: 0px;
     }
     .pricing {
-        text-align: center;
+        text-align: left;
+        width: 80%;
+        margin: auto;
+        padding-bottom: 1rem;
     }
     span.line-break {
         content: "\a";
@@ -337,6 +340,19 @@ img.instruction-placeholder {
     }
     .mobile-video {
         margin-left: -25px;
+    }
+    .p-mobile {
+        text-align: left;
+        width: 65%;
+        margin: auto;
+    }
+    .how-it-works-block {
+        margin-bottom: 1.5rem;
+    }
+    .mythbusting-block {
+        text-align: left;
+        width: 65%;
+        margin: auto;
     }
 }
 
@@ -510,6 +526,16 @@ img.instruction-placeholder {
     }
     .how-it-works-img {
         display: unset;
+    }
+    .p-mobile {
+        text-align: unset;
+        width: auto;
+        margin: unset;
+    }
+    .mythbusting-block {
+        text-align: unset;
+   
+        margin: unset;
     }
     
 }
