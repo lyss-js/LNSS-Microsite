@@ -262,6 +262,72 @@
         <h2>What we've got going on</h2>
       </div>
     </div>
+    <div class="row">
+      <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="https://res.cloudinary.com/sbg-pathyield/image/upload/v1659376382/Screen_Shot_2022-07-06_at_1.30.16_PM_phmyzz.png" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="https://res.cloudinary.com/sbg-pathyield/image/upload/v1659376382/Screen_Shot_2022-05-03_at_10.27.00_AM_xq44fs.png" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="https://res.cloudinary.com/sbg-pathyield/image/upload/v1659376382/Screen_Shot_2022-05-03_at_10.27.28_AM_dtexh8.png" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="https://res.cloudinary.com/sbg-pathyield/image/upload/v1659376382/Screen_Shot_2022-07-06_at_1.30.56_PM_e26kq4.png" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="https://res.cloudinary.com/sbg-pathyield/image/upload/v1659377229/Screen_Shot_2022-08-01_at_2.06.45_PM_omfufg.png" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="https://res.cloudinary.com/sbg-pathyield/image/upload/v1659377357/Screen_Shot_2022-08-01_at_2.07.59_PM_vuwrgm.png" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+      </div>
+    </div>
  
     <!--
     <div class="row">
@@ -304,7 +370,25 @@
 <script>
 new WOW().init();
 </script>
+<script>
 
+  let items = document.querySelectorAll('.carousel .carousel-item')
+  
+  items.forEach((el) => {
+      const minPerSlide = 4
+      let next = el.nextElementSibling
+      for (var i=1; i<minPerSlide; i++) {
+          if (!next) {
+              // wrap carousel by using first child
+            next = items[0]
+          }
+          let cloneChild = next.cloneNode(true)
+          el.appendChild(cloneChild.children[0])
+          next = next.nextElementSibling
+      }
+  })
+  
+  </script>
   </body>
 </html>
 

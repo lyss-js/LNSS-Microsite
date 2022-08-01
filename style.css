@@ -320,6 +320,12 @@ img.instruction-placeholder {
         min-width: 320px;
         height: 720px;
     }
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
 }
 
 @media (min-width: 767.98px)  {
@@ -376,6 +382,15 @@ img.instruction-placeholder {
         padding-left: 4%;
         padding-top: 3rem;
         padding-bottom: 2rem;
+    }
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(25%);
+    }
+    
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-25%);
     }
 }
 
@@ -561,3 +576,15 @@ a.location-link-florid:hover {
     -webkit-animation-direction: normal, alternate;
     animation-direction: normal, alternate;
   }
+
+/* Carousel */
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+}
