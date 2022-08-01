@@ -508,6 +508,9 @@ img.instruction-placeholder {
     .how-it-works-mobile {
         display: none;
     }
+    .how-it-works-img {
+        display: unset;
+    }
     
 }
 
