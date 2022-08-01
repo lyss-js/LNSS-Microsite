@@ -335,6 +335,9 @@ img.instruction-placeholder {
     img.how-it-works-mobile {
         padding-bottom: 1rem;
     }
+    .mobile-video {
+        margin-left: -25px;
+    }
 }
 
 @media (min-width: 767.98px)  {
