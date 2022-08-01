@@ -230,7 +230,10 @@ img.instruction-placeholder {
         font-size: 1.25rem;
     }
     /* Hero section */
-
+    a {
+        -webkit-appearance: none;
+        border-radius: 0;
+    }
     .contact_lens {
         width: 25%;
         position: absolute;
@@ -325,6 +328,12 @@ img.instruction-placeholder {
     }
     .carousel-inner .carousel-item > div:first-child {
         display: block;
+    }
+    .how-it-works-img {
+        display: none;
+    }
+    img.how-it-works-mobile {
+        padding-bottom: 1rem;
     }
 }
 
@@ -474,6 +483,9 @@ img.instruction-placeholder {
         min-width: 320px;
         height: 720px;
     }
+    .how-it-works-mobile {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 1500px) {
@@ -588,3 +600,4 @@ a.location-link-florid:hover {
 .carousel-inner .carousel-item-start { 
   transform: translateX(0);
 }
+
