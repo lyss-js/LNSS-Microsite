@@ -417,6 +417,12 @@ img.instruction-placeholder {
     h3.title-padding {
         padding-top: 2rem;
     }
+    .how-it-works-img {
+        display: none;
+    }
+    img.how-it-works-mobile {
+        padding-bottom: 1rem;
+    }
 }
 
 @media only screen and (min-width: 1440px) {
