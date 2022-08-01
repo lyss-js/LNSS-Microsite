@@ -404,6 +404,16 @@ img.instruction-placeholder {
     .carousel-inner .carousel-item-prev {
       transform: translateX(-25%);
     }
+    img.info-img {
+        width: 280%;
+    }
+    .calendly-inline-widget {
+        height: 44rem;
+    }
+    .info-section {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
 }
 
 @media only screen and (min-width: 1440px) {
@@ -489,6 +499,7 @@ img.instruction-placeholder {
     .how-it-works-mobile {
         display: none;
     }
+    
 }
 
 @media only screen and (min-width: 1500px) {
