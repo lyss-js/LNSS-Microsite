@@ -307,6 +307,8 @@ img.instruction-placeholder {
         background-color: #EDEDEE;
         padding-top: 2rem;
         padding-bottom: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
     .mobile-input {
         margin-bottom: 1rem;
@@ -318,6 +320,8 @@ img.instruction-placeholder {
     .info-section {
         background-color: #EDE031;
         padding-top: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
     img.info-img {
         width: 12%;
@@ -536,6 +540,9 @@ img.instruction-placeholder {
         text-align: unset;
    
         margin: unset;
+    }
+    img.thank-you-img {
+        width: 60%;
     }
     
 }
