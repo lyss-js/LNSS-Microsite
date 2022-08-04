@@ -201,9 +201,13 @@ img.instruction-placeholder {
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
-.pricing-img {
+img.pricing-img-1 {
+    width: 40%;
+    padding-bottom: 3%;
+}
+img.pricing-img-2 {
+    width: 36%;
     padding-bottom: 4%;
-    width: 30%;
 }
 .center-items {
     display: flex;
@@ -443,6 +447,10 @@ img.instruction-placeholder {
     img.how-it-works-mobile {
         padding-bottom: 1rem;
     }
+    img.smaller-img {
+        width: 14%;
+        padding-bottom: 9px;
+    }
 }
 
 @media only screen and (min-width: 1440px) {
@@ -543,6 +551,9 @@ img.instruction-placeholder {
     }
     img.thank-you-img {
         width: 60%;
+    }
+    p.extra-padding {
+        padding-top: 7%;
     }
     
 }
@@ -660,3 +671,7 @@ a.location-link-florid:hover {
   transform: translateX(0);
 }
 
+/* Logo */
+img.logo {
+    width: 200px;
+}
